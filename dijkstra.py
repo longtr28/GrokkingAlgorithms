@@ -31,7 +31,7 @@ def find_lowest_cost_node(costs):
         cost = costs[node]
         if cost < lowest_cost and node not in processed:
             lowest_cost = cost
-            lowest_cost_node = node
+            lowest_cost_node = node 
     return lowest_cost_node
 
 node = find_lowest_cost_node(costs)
